@@ -1,0 +1,39 @@
+body{
+    background-color: bisque;
+}
+
+.ex1{
+    border: 6px solid blue;
+}
+
+.ex2{
+    border: 6px solid springgreen;
+    border-width: medium;
+}
+
+.ex3{
+    border: 6px dotted azure;
+}
+
+.ex4{
+    border: dotted olive;
+    border-width: thick;
+}
+
+.ex5{
+    border: solid;
+    border-width: 20px 10px;
+    border-color: red green pink blue;
+}
+
+.ex6{
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-left-style: none;
+}
+
+.ex7{
+    border: 6px solid pink;
+    border-radius: 20px;
+}

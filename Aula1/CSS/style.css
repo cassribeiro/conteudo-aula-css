@@ -1,0 +1,24 @@
+body{
+    background-color: aquamarine;
+    justify-items: center;
+}
+
+h1{
+    background-color: rgb(72, 209, 204, 0.7);
+    color: darkblue;
+    border: 3px solid orchid;
+    /* opacity: 0.5; */
+}
+
+h2{
+    background-color: rgb(255, 228, 196, 0.6);
+    color: darkmagenta;
+    border: 2px solid mediumvioletred;
+    /* opacity: 0.5; */
+}
+p{
+    background-color: rgb(240, 255, 255, 0.4);
+    color: midnightblue;
+    border: 1px solid darkcyan;
+    /* opacity: 0.5; */
+}
