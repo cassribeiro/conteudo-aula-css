@@ -1,0 +1,14 @@
+body{
+    background-color: darkcyan;
+    justify-items: center;
+}
+.el1{
+    background-color: purple;
+    width: 500px;
+}
+.ex1{
+    background-color: blueviolet;
+    width: 500px;
+    padding: 50px;
+    box-sizing: border-box;
+}
