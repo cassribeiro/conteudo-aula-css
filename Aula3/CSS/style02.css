@@ -1,0 +1,12 @@
+body{
+    background-color: blueviolet;
+}
+.ex1{
+    border: 3px solid salmon;
+    background-color: aliceblue;
+    outline-style: solid;
+    outline-width: 10px;
+    outline-color: aqua;
+    width: 400px;
+    margin: 30px auto;
+}

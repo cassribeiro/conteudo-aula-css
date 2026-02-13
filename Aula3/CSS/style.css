@@ -1,0 +1,18 @@
+body{
+    background-color: darkslateblue;
+}
+
+.ex1{
+    background-color: antiquewhite;
+    height: 300px;
+    width: 400px;
+}
+.div1{
+    background-color: cadetblue;
+    width: 680px;
+    height: ;
+}
+.div2{
+    background-color: cornflowerblue;
+    max-width: 680px;
+}

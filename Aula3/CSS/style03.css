@@ -1,0 +1,20 @@
+body{
+    background-color: burlywood;
+}
+
+.ex1{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: chartreuse;
+}
+
+.ex2{
+    text-decoration-line: overline;
+    text-decoration-style: double;
+    text-decoration-color: darkgreen;
+}
+.ex3{
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: fuchsia;
+}
