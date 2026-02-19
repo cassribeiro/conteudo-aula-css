@@ -1,0 +1,113 @@
+body{
+    background-color: bisque;
+}
+/* Exemplo de flex-direction: row */
+.ex1{
+    background-color: aqua;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.ex1 div{
+    background-color: gray;
+    color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+/* Exemplo de flex-direction:column */
+.ex2{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    gap: 10px;
+}
+.ex2 div{
+    background-color: gray;
+    color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+/* Exemplo de flex-directon: row-reverse */
+.ex3{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: aquamarine;
+    gap: 10px;
+}
+.ex3 div{
+    background-color: gray;
+    color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+/* Exemplo de flex-direction: column- reverse */
+.ex4{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: aquamarine;
+    gap: 10px;
+}
+.ex4 div{
+    background-color: gray;
+    color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Exemplo de flex-wrap: nowwrap*/
+.ex5{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: cadetblue;
+    gap: 10px;
+}
+.ex5 div{
+    background-color: gray;
+    color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Exemplo de flex-wrap: wrap*/
+.ex6{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cadetblue;
+    gap: 10px;
+}
+.ex6 div{
+    background-color: gray;
+    color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Exemplo de flex-wrap: wrap-reverse*/
+.ex7{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: cadetblue;
+    gap: 10px;
+}
+
+.ex7 div{
+    background-color: gray;
+    color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
