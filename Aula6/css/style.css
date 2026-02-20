@@ -1,0 +1,89 @@
+body{
+    background-color: darkgreen;
+}
+/* Exemplo de Flex Itens */
+.ex1{
+    background-color: green;
+    display: flex;
+    gap: 30px;
+}
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 197, 66);
+}
+/* Exemplo de flex-grow */
+.ex2{
+    background-color: green;
+    display: flex;
+    gap: 30px;
+}
+.ex2 div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 197, 66);
+}
+/* Exemplo de flex-shrink */
+.ex3{
+    background-color: green;
+    display: flex;
+    gap: 30px;
+}
+.ex3 div{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(66, 197, 66);
+}
+/* Exemplo de flex-basis*/
+.ex4{
+    background-color: green;
+    display: flex;
+    gap: 30px;
+}
+.ex4 div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 197, 66);
+}
+/* Exemplo de align-self: center*/
+.ex5{
+    background-color: green;
+    display: flex;
+    height: 200px;
+    gap: 30px;
+}
+.ex5 div{
+    width: 100px;
+    background-color: rgb(66, 197, 66);
+}
+.ex5 #it3{
+    background-color: beige;
+    height: 100px;
+    align-self: center;
+}
+/* Exemplo de align-self: flex start e flex-end*/
+.ex6{
+    background-color: green;
+    display: flex;
+    height: 200px;
+    gap: 30px;
+}
+.ex6 div{
+    width: 100px;
+    background-color: rgb(66, 197, 66);
+}
+.ex6 #item2{
+    background-color: beige;
+    height: 100px;
+    align-self: flex-start;
+}
+.ex6 #item3{
+    background-color: beige;
+    height: 100px;
+    align-self: center;
+}
+.ex6 #item4{
+    background-color: beige;
+    height: 100px;
+    align-self: flex-end;
+}
