@@ -1,0 +1,114 @@
+body{
+    background-color: darkorchid;
+    color: antiquewhite;
+}
+/* Exemplo de align-items: center */
+.ex1{
+    height: 200px;
+    align-items: center;
+    display: flex;
+    background-color: mediumorchid;
+    gap: 30px;
+}
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    color: blueviolet;
+    text-align: center;
+}
+/* Exemplo de align-items: flex-start*/
+.ex2{
+    height: 200px;
+    align-items: flex-start;
+    display: flex;
+    background-color: mediumorchid;
+    gap: 30px;
+}
+.ex2 div{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    color: blueviolet;
+    text-align: center;
+}
+/* Exemplo de align-items: flex-end*/
+.ex3{
+    height: 200px;
+    align-items: flex-end;
+    display: flex;
+    background-color: mediumorchid;
+    gap: 30px;
+}
+.ex3 div{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    color: blueviolet;
+    text-align: center;
+}
+/* Exemplo de align-items: stretch*/
+.ex4{
+    height: 200px;
+    align-items: stretch;
+    display: flex;
+    background-color: mediumorchid;
+    gap: 30px;
+}
+.ex4 div{
+    width: 100px;
+    background-color: aliceblue;
+    color: blueviolet;
+    text-align: center;
+}
+/* Exemplo de align-content: center*/
+.ex5{
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: center;
+    display: flex;
+    background-color: mediumpurple;
+    gap: 30px;
+}
+.ex5 div{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    color: blueviolet;
+    text-align: center;
+}
+/* Exemplo de align-content: space-between*/
+.ex6{
+    height: 500px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    display: flex;
+    background-color: mediumpurple;
+    gap: 30px;
+}
+.ex6 div{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    color: blueviolet;
+    text-align: center;
+}
+/* Exemplo de align-content: center e justify-content: center*/
+.ex7{
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-color: mediumpurple;
+    gap: 30px;
+}
+.ex7 div{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    color: blueviolet;
+    text-align: center;
+    align-content: center;
+}
+
